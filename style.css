@@ -1,0 +1,291 @@
+@import url('http://fonts.cdnfonts.com/css/bank-gothic');
+body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0; padding: 0;
+    font-weight: bold;
+}
+header{
+    background-color: #1b1b1b;
+    user-select: none;
+}
+main{
+    user-select: none;
+}
+.search{
+    height: min-content;
+    align-self: center;
+    margin-left: 2rem;
+    background-color: #252525;
+    border-radius: 7px;
+    padding: 5px;
+}
+#img_search{
+    width: 16px;
+    height: 16px;
+    filter: brightness(2);
+}
+#recherche{
+    background: none;
+    border: none;
+    color: #aeb3b3;
+    width: 35rem;
+    font-size: 16px;
+}
+.container{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    margin: 0;
+    margin: 1rem 0;
+}
+.row{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+#cine{
+    padding: 5px;
+}
+#hub{
+    background-color: #ff9000;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+.import{
+    display: flex;
+    max-height: min-content;
+    align-self: center;
+    background-color: #252525;
+    border-radius: 7px;
+    padding: 8px;
+    margin-left: 2rem;
+}
+.import p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+#cam{
+    width: 19px;
+    height: 19px;
+    filter: invert(1);
+    margin-right: 0.5rem;
+}
+#star{
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+.premium{
+    display: flex;
+    max-height: min-content;
+    align-self: center;
+    background-color: #ff9000;
+    border-radius: 7px;
+    padding: 8px;
+    margin-left: 0.5rem;
+}
+.premium p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.log{
+    display: flex;
+    flex: 2;
+    justify-content: right;
+    padding: 7px;
+    max-height: min-content;
+    align-self: center;
+}
+.log p{
+    color: #aeb3b3;
+}
+#login{
+    margin-right: 2rem;
+}
+.liste{
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.liste:hover{
+    border-bottom: 2px solid #ff9000;
+}
+hr{
+    opacity: 0.1;
+}
+.cinzzer{
+    display: flex;
+    font-family: 'Bank Gothic', sans-serif;
+    cursor: pointer;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+main h1{
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.jaune{
+    color: #fbca27;
+}
+.pub{
+    display: flex;
+    flex: 2;
+    justify-content: right;
+    animation: clignote 1s linear infinite;
+    }
+@keyframes clignote {  
+    50% { opacity: 0; }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.pub img{
+    width: 52px;
+    height: 52px;
+}
+#quatrek{
+    margin-left: 1rem;
+}
+#element_create{
+    display: none;
+    background-color: #000000;
+}
+#element_create h2{
+    text-align: center;
+}
+hr.element_create{
+    opacity: 0.4;
+    border-color: #fff;
+    margin: 0;
+}
+.select_genre tr td:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+#element_create2{
+    display: none;
+    background-color: #000000;
+}
+#element_create2 h2{
+    text-align: center;
+}
+.select_distributor tr td:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+table{
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+table td, table th{
+    padding: 20px !important;
+}
+table tr:nth-child(even){
+    background-color: #1b1b1b;
+}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ff9000;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-size: 22px;
+}
+#maxRows{
+    width: 100%;
+    padding: 0.5rem;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd{
+    background-color: #000;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.even{
+    background-color: #1b1b1b;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{
+    border: none;
+}
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1:hover{
+    background-color: #000;
+    color: white;
+}
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1:hover{
+    background-color: #1b1b1b;
+    color: white;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.even:hover{
+    background-color: #1b1b1b !important;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mytable_length select{
+    font-size: 25px;
+    width: 10rem;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff9000;
+    font-weight: bold;
+}
+#mytable_info{
+    color: white;
+    font-size: 22px;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+#mytable_wrapper{
+    margin-bottom: 2rem;
+}
+table.dataTable.no-footer{
+    border-bottom: 1px solid #fff;
+}
+#mytable_paginate{
+    padding-top: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+a.nav{
+    width: 20%;
+}
+.user_table{
+    margin-top: 3rem;
+}
+
+label input{
+    background: none;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    background-color: #ff9000;
+}
